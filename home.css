@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.bar1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: lightyellow;
+}
+.div2 i{
+    padding:0.2rem;
+    font-size: 1.5rem;
+    
+}
+#insta{
+    color: darkmagenta;
+}
+#facebook{
+    color: blue;
+}
+#X{
+    color: black;
+}
+#yt{
+    color:rgba(234, 7, 7, 0.795);
+}
+#WhatsApp{
+    color: rgb(47, 199, 47);
+}
+.div2 i:hover{
+    color: lightcoral;
+    cursor: pointer;
+}
+h1{
+    color:darkred;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;   
+}
+.div1 img {
+    margin-bottom: 1rem;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+.div1 h2{
+    text-align: center;
+    color:darkred;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: lightyellow;
+    padding: 1rem ;
+    margin-top: 1rem;    
+}
+.navbar a{
+    text-decoration: none;
+    color: darkred;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    margin: 0 1.5rem;
+    font-weight: 700;
+}
+
+.content div{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.content div h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkred;
+    margin:1rem;
+}
+#about img{
+    border-radius: 5%;
+}
+.content div p{
+    width: 60%;
+    text-align: center;
+    color: darkred;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1rem;
+    line-height: 1.5rem;
+}
+#collections {
+    background-color: lightyellow;
+    padding: 1rem;
+}
+#collections button{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.collect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.collect img{
+    width: 18rem;
+    height: 25rem;
+    border-radius: 5%;
+}
+#events img{
+    width: 80%;
+    height: 35%;
+    border-radius: 5%;
+    margin: 1rem;
+
+}
+#contact{
+    background-color: lightyellow;
+    padding: 1rem;
+    
+}
+
+#contact form label{
+    display: block;
+    margin-top: 0.5rem ;
+    color: darkred;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#contact form input, #contact form textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid darkred;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#contact button{
+    margin-top: 1rem;
+    border:1px solid darkred;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+#contact button{
+    background-color: darkred;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    padding: 1rem;
+    color: darkred;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+@media screen and (max-width:600px){
+    .div1 img {
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+}
